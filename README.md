@@ -10,7 +10,7 @@ Nachdem Sie Docker installiert haben müssen Sie unseren Code herunterladen. Daf
   ```git clone git@github.com:u-adrian/CodingDaVinci-ArtXFashion.git``` ausführen. Git wird dann das Repository Herunterladen.
   
  Da die Gewichte-Dateien unserer Neuronalen Netze sehr groß sind, haben wir diese nicht auf GitHub hochgeladen.
- Die Gewichte können Sie unter []() herunterladen. Speichern Sie die Datei in "CodingDaVinci-ArtXFashion\django-webserver\imageupload\segmentation". Der Name
+ Die Gewichte können Sie unter [TODO](TODO) herunterladen. Speichern Sie die Datei in "CodingDaVinci-ArtXFashion\django-webserver\imageupload\segmentation". Der Name
  der Datei muss "weights_E1000.pt" sein.
  
  
@@ -38,4 +38,5 @@ Nachdem Sie Docker installiert haben müssen Sie unseren Code herunterladen. Daf
  Führen sie dafür in der bereits geöffneten Konsole "docker-compose up" aus.
  
  Öffnen Sie einen Browser und öffnen sie den Link [127.0.0.1:8000/upload](127.0.0.1:8000/upload).
+ 
  Viel Spaß!
