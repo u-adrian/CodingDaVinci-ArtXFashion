@@ -138,3 +138,12 @@ data/
 neural_content_style_transfer/.DS_Store
 neural_content_style_transfer/grid_search_images/
 grid_search_images_lukas
+.DS_Store
+
+# uploaded images
+django-webserver/images/randomseed
+django-webserver/images/segmentation
+django-webserver/images/style
+
+# segmentation model weights
+django-webserver/imageupload/segmentation/weights_E1000.pt
