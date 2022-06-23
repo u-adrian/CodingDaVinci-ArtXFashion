@@ -12,6 +12,21 @@ Nachdem Sie Docker installiert haben müssen Sie unseren Code herunterladen. Daf
  Da die Gewichte-Dateien unserer Neuronalen Netze sehr groß sind, haben wir diese nicht auf GitHub hochgeladen.
  Die Gewichte können Sie unter []() herunterladen. Speichern Sie die Datei in "CodingDaVinci-ArtXFashion\django-webserver\imageupload\segmentation". Der Name
  der Datei muss "weights_E1000.pt" sein.
+ 
+ 
+ Falls sie keine CUDA fähige Grafikkarte haben müssen Sie folgende Zeilen aus der Datei 
+ "CodingDaVinci-ArtXFashion/django-webserver/docker-compose.yml" löschen:
+ ```
+      deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+ ```
+ Dies ermöglicht es Ihnen die Anwendung zu installieren. Diese wird jedoch ohne Grafikkarte sehr langsam sein.
+ 
   
  Im nächsten Schritt installieren wir die Anwendung:
  
