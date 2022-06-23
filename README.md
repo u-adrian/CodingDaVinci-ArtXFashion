@@ -31,11 +31,20 @@ Nachdem Sie Docker installiert haben müssen Sie unseren Code herunterladen. Daf
  Im nächsten Schritt installieren wir die Anwendung:
  
  Dafür öffnen Sie eine Konsole in dem Ordner "CodingDaVinci-ArtXFashion/django-webserver".
- Führen sie das Kommando ```docker-compose build``` aus.
- Sobald das Kommando erfolgreich beendet wurde, müssen Sie ```./run_commands.sh``` ausführen.
+ Führen sie das Kommando 
+ 
+ ```docker-compose build```
+ aus.
+ Sobald das Kommando erfolgreich beendet wurde, müssen Sie 
+ 
+ ```./run_commands.sh```
+ ausführen.
  
  Nun können Sie die Anwendung starten.
- Führen sie dafür in der bereits geöffneten Konsole ```docker-compose up``` aus.
+ Führen sie dafür in der bereits geöffneten Konsole 
+ 
+ ```docker-compose up```
+ aus.
  
  Öffnen Sie einen Browser und öffnen sie den Link [127.0.0.1:8000/upload](127.0.0.1:8000/upload).
  
